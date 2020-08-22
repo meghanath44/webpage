@@ -10,10 +10,26 @@
         font-family: sans-serif;
     }
     #p1,#p2,#p3{
-        width: 31%;
-        border:1px thick black;
         float: left;
         margin-right: 20px;
+        }
+    @media only screen and (max-width 991px) and (min-width: 768){
+        #p1,#p2{
+        float: left;
+        margin-right: 20px;
+        }
+        #p3{
+            clear: left;
+        }
+    }
+    @media (min-width: 767){
+        #p2,#p3{
+            clear: left;
+        }
+    }
+    #p1,#p2,#p3{
+        width: 31%;
+        border:1px thick black;
         background-color: gray;
         position: relative;
         padding-top: 30px;
@@ -46,3 +62,4 @@
     <p id="p3"> <span id="p33">Sushi</span> Sushi originates in a Southeast Asian dish, known as narezushi (馴れ寿司, 熟寿司 – "salted fish"), stored in fermented rice for possibly months at a time. The lacto-fermentation of the rice prevented the fish from spoiling;[3] the rice would be discarded before consumption of the fish.[4] This early type of sushi became an important source of protein for its Japanese consumers. The term sushi literally means "sour-tasting" and comes from an antiquated し (shi) terminal-form conjugation, 酸し sushi, no longer used in other contexts, of the adjectival verb 酸い sui "to be sour";[5] the overall dish has a sour and umami or savoury taste.</p>
 </body>
 </html>
+
